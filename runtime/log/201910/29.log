@@ -1,0 +1,4229 @@
+---------------------------------------------------------------
+[ 2019-10-29T09:43:37+08:00 ] 0.0.0.0 GET localhost:8888/
+[运行时间：0.319019s] [吞吐率：3.13req/s] [内存消耗：3,234.02kb] [文件加载：112]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:43:37+08:00 ] 0.0.0.0 GET localhost:8888/admin/login/index.html
+[运行时间：0.053003s] [吞吐率：18.87req/s] [内存消耗：2,617.11kb] [文件加载：106]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/index_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\login\index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:43:37+08:00 ] 0.0.0.0 GET localhost:8888/admin/login/captcha.html
+[运行时间：0.048003s] [吞吐率：20.83req/s] [内存消耗：2,614.31kb] [文件加载：105]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/captcha_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:43:50+08:00 ] 0.0.0.0 POST localhost:8888/admin/login/verify.html
+[运行时间：0.530031s] [吞吐率：1.89req/s] [内存消耗：4,507.83kb] [文件加载：125]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8888',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/verify_html' => '',
+  'account' => 'admin',
+  'pwd' => '123456789',
+  'verify' => '8697',
+)
+[ info ] [ RUN ] app\admin\controller\Login->verify[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @system_admin_login_after [ RunTime:0.382021s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:43:51+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/index.html
+[运行时间：0.478027s] [吞吐率：2.09req/s] [内存消耗：5,152.79kb] [文件加载：127]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\index\index.php [ array (
+  0 => '_admin',
+  1 => 'menuList',
+  2 => 'site_logo',
+  3 => 'new_order_audio_link',
+  4 => 'role_name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:43:51+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/main.html
+[运行时间：0.392022s] [吞吐率：2.55req/s] [内存消耗：5,603.58kb] [文件加载：130]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'nested-navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/main_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\index\main.php [ array (
+  0 => '_admin',
+  1 => 'first_line',
+  2 => 'second_line',
+  3 => 'topData',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:43:52+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.721041s] [吞吐率：1.39req/s] [内存消耗：5,289.54kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:43:52+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/orderchart.html?cycle=thirtyday
+[运行时间：0.822047s] [吞吐率：1.22req/s] [内存消耗：4,852.55kb] [文件加载：124]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'orderchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/orderchart_html' => '',
+  'cycle' => 'thirtyday',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\admin\controller\Index->orderchart[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:43:52+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/userchart.html
+[运行时间：0.908052s] [吞吐率：1.10req/s] [内存消耗：4,879.52kb] [文件加载：124]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'userchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/userchart_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->userchart[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:43:58+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.212012s] [吞吐率：4.72req/s] [内存消耗：5,289.54kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:55:31+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.136008s] [吞吐率：7.35req/s] [内存消耗：3,204.98kb] [文件加载：118]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:55:31+08:00 ] 0.0.0.0 GET localhost:8888/wap/login/index.html?ref=aHR0cDovL2xvY2FsaG9zdDo4ODg4L3dhcA==
+[运行时间：0.334019s] [吞吐率：2.99req/s] [内存消耗：6,093.39kb] [文件加载：205]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_login=0',
+)
+[ info ] [ PARAM ] array (
+  '/wap/login/index_html' => '',
+  'ref' => 'aHR0cDovL2xvY2FsaG9zdDo4ODg4L3dhcA==',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wap\controller\Login->index[ D:\AppServ\www\application\wap\controller\Login.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/login\index.html [ array (
+  0 => 'ref',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:55:53+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/?XDEBUG_SESSION_START=18194
+[运行时间：0.054003s] [吞吐率：18.52req/s] [内存消耗：3,233.47kb] [文件加载：112]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '18194',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:55:53+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/admin/login/index.html
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：2,617.05kb] [文件加载：106]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=18194; PHPSESSID=dptc4amacr4rqj5anc28f6ncvp',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/index_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\login\index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:55:53+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/admin/login/captcha.html
+[运行时间：0.046003s] [吞吐率：21.74req/s] [内存消耗：2,614.00kb] [文件加载：105]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=18194; PHPSESSID=dptc4amacr4rqj5anc28f6ncvp',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/captcha_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:56:01+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：3,153.19kb] [文件加载：117]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=18194; PHPSESSID=dptc4amacr4rqj5anc28f6ncvp',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:56:01+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/login/index.html?ref=aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcA==
+[运行时间：0.159009s] [吞吐率：6.29req/s] [内存消耗：6,093.08kb] [文件加载：205]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=18194; PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_login=0',
+)
+[ info ] [ PARAM ] array (
+  '/wap/login/index_html' => '',
+  'ref' => 'aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcA==',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wap\controller\Login->index[ D:\AppServ\www\application\wap\controller\Login.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/login\index.html [ array (
+  0 => 'ref',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:56:17+08:00 ] 127.0.0.1 POST 127.0.0.1:8888/wap/login/check.html
+[运行时间：0.090005s] [吞吐率：11.11req/s] [内存消耗：4,312.91kb] [文件加载：120]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '67',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:8888',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap/login/index.html?ref=aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcA==',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=18194; PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_login=0; is_bg=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/login/check_html' => '',
+  'account' => 'crmeb',
+  'pwd' => '123456789',
+  'ref' => 'http://127.0.0.1:8888/wap',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wap\controller\Login->check[ D:\AppServ\www\application\wap\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/public\error.html [ array (
+  0 => 'title',
+  1 => 'msg',
+  2 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:56:19+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/login/index.html?ref=aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcA==
+[运行时间：0.198012s] [吞吐率：5.05req/s] [内存消耗：6,093.20kb] [文件加载：205]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap/login/check.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=18194; PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_login=0; is_bg=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/login/index_html' => '',
+  'ref' => 'aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcA==',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wap\controller\Login->index[ D:\AppServ\www\application\wap\controller\Login.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/login\index.html [ array (
+  0 => 'ref',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:56:24+08:00 ] 127.0.0.1 POST 127.0.0.1:8888/wap/login/check.html
+[运行时间：0.322018s] [吞吐率：3.11req/s] [内存消耗：4,427.48kb] [文件加载：125]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '64',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:8888',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap/login/index.html?ref=aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcA==',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=18194; PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_login=0; is_bg=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/login/check_html' => '',
+  'account' => 'crmeb',
+  'pwd' => '123456',
+  'ref' => 'http://127.0.0.1:8888/wap',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wap\controller\Login->check[ D:\AppServ\www\application\wap\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:58:18+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：114.043523s] [吞吐率：0.01req/s] [内存消耗：6,835.87kb] [文件加载：219]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap/login/index.html?ref=aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcA==',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=18194; PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:58:19+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.166009s] [吞吐率：6.02req/s] [内存消耗：2,169.51kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=18194; PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:58:27+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/?XDEBUG_SESSION_START=15768
+[运行时间：0.051003s] [吞吐率：19.61req/s] [内存消耗：3,235.52kb] [文件加载：112]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'XDEBUG_SESSION=18194; PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '15768',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:58:27+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/admin/login/index.html
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：2,617.06kb] [文件加载：106]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15768',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/index_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\login\index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:58:27+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/admin/login/captcha.html
+[运行时间：0.046003s] [吞吐率：21.74req/s] [内存消耗：2,614.64kb] [文件加载：105]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15768',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/captcha_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:59:04+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.061004s] [吞吐率：16.39req/s] [内存消耗：3,205.09kb] [文件加载：118]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_login=0; is_bg=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:59:04+08:00 ] 0.0.0.0 GET localhost:8888/wap/login/index.html?ref=aHR0cDovL2xvY2FsaG9zdDo4ODg4L3dhcA==
+[运行时间：0.164010s] [吞吐率：6.10req/s] [内存消耗：6,093.39kb] [文件加载：205]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_login=0; is_bg=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/login/index_html' => '',
+  'ref' => 'aHR0cDovL2xvY2FsaG9zdDo4ODg4L3dhcA==',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wap\controller\Login->index[ D:\AppServ\www\application\wap\controller\Login.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/login\index.html [ array (
+  0 => 'ref',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:59:15+08:00 ] 0.0.0.0 POST localhost:8888/wap/login/check.html
+[运行时间：0.245014s] [吞吐率：4.08req/s] [内存消耗：4,479.10kb] [文件加载：126]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'content-length' => '64',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8888',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap/login/index.html?ref=aHR0cDovL2xvY2FsaG9zdDo4ODg4L3dhcA==',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_login=0; is_bg=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/login/check_html' => '',
+  'account' => 'CRMEB',
+  'pwd' => '123456',
+  'ref' => 'http://localhost:8888/wap',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wap\controller\Login->check[ D:\AppServ\www\application\wap\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:59:15+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.224013s] [吞吐率：4.46req/s] [内存消耗：6,620.66kb] [文件加载：218]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap/login/index.html?ref=aHR0cDovL2xvY2FsaG9zdDo4ODg4L3dhcA==',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T09:59:15+08:00 ] 0.0.0.0 GET localhost:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：2,170.09kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:01:49+08:00 ] 0.0.0.0 GET localhost:8888/wap/store/cut_list.html
+[运行时间：0.208012s] [吞吐率：4.81req/s] [内存消耗：4,681.03kb] [文件加载：125]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'cut_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/cut_list_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->cut_list[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\cut_list.html [ array (
+  0 => 'userInfo',
+  1 => 'bargain',
+  2 => 'bargainUser',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:01:49+08:00 ] 0.0.0.0 GET localhost:8888/wap/store/font/iconfont.css
+[运行时间：0.071004s] [吞吐率：14.08req/s] [内存消耗：4,343.00kb] [文件加载：120]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'font',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap/store/cut_list.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/font/iconfont_css' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\WapBasic->_empty[ D:\AppServ\www\application\wap\controller\WapBasic.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/public\error.html [ array (
+  0 => 'userInfo',
+  1 => 'title',
+  2 => 'msg',
+  3 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:01:56+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.274015s] [吞吐率：3.65req/s] [内存消耗：6,620.27kb] [文件加载：218]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap/login/index.html?ref=aHR0cDovL2xvY2FsaG9zdDo4ODg4L3dhcA==',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:07+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.246014s] [吞吐率：4.06req/s] [内存消耗：6,878.72kb] [文件加载：220]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap/login/index.html?ref=aHR0cDovL2xvY2FsaG9zdDo4ODg4L3dhcA==',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:07+08:00 ] 0.0.0.0 GET localhost:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.045002s] [吞吐率：22.22req/s] [内存消耗：2,170.09kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:14+08:00 ] 0.0.0.0 GET localhost:8888/
+[运行时间：0.173009s] [吞吐率：5.78req/s] [内存消耗：4,919.02kb] [文件加载：125]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\index\index.php [ array (
+  0 => '_admin',
+  1 => 'menuList',
+  2 => 'site_logo',
+  3 => 'new_order_audio_link',
+  4 => 'role_name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:14+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/main.html
+[运行时间：0.158009s] [吞吐率：6.33req/s] [内存消耗：5,354.60kb] [文件加载：128]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'nested-navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/main_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\index\main.php [ array (
+  0 => '_admin',
+  1 => 'first_line',
+  2 => 'second_line',
+  3 => 'topData',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:15+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/userchart.html
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：4,880.07kb] [文件加载：124]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'userchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/userchart_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->userchart[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:15+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/orderchart.html?cycle=thirtyday
+[运行时间：0.140008s] [吞吐率：7.14req/s] [内存消耗：4,853.02kb] [文件加载：124]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'orderchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/orderchart_html' => '',
+  'cycle' => 'thirtyday',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->orderchart[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:15+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.204012s] [吞吐率：4.90req/s] [内存消耗：5,289.98kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:19+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.217012s] [吞吐率：4.61req/s] [内存消耗：6,619.77kb] [文件加载：218]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:19+08:00 ] 0.0.0.0 GET localhost:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：2,170.16kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:19+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.258015s] [吞吐率：3.88req/s] [内存消耗：6,619.57kb] [文件加载：218]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:51+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.184011s] [吞吐率：5.43req/s] [内存消耗：6,877.58kb] [文件加载：220]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:51+08:00 ] 0.0.0.0 GET localhost:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：2,170.09kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:55+08:00 ] 0.0.0.0 GET localhost:8888/
+[运行时间：0.148008s] [吞吐率：6.76req/s] [内存消耗：4,919.02kb] [文件加载：125]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\index\index.php [ array (
+  0 => '_admin',
+  1 => 'menuList',
+  2 => 'site_logo',
+  3 => 'new_order_audio_link',
+  4 => 'role_name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:55+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/main.html
+[运行时间：0.121007s] [吞吐率：8.26req/s] [内存消耗：5,354.60kb] [文件加载：128]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'nested-navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/main_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\index\main.php [ array (
+  0 => '_admin',
+  1 => 'first_line',
+  2 => 'second_line',
+  3 => 'topData',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:55+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.096006s] [吞吐率：10.42req/s] [内存消耗：5,289.98kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:55+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/userchart.html
+[运行时间：0.109006s] [吞吐率：9.17req/s] [内存消耗：4,880.07kb] [文件加载：124]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'userchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/userchart_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->userchart[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:55+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/orderchart.html?cycle=thirtyday
+[运行时间：0.158009s] [吞吐率：6.33req/s] [内存消耗：4,853.02kb] [文件加载：124]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'orderchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/orderchart_html' => '',
+  'cycle' => 'thirtyday',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->orderchart[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:59+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.181011s] [吞吐率：5.52req/s] [内存消耗：6,619.77kb] [文件加载：218]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:08:59+08:00 ] 0.0.0.0 GET localhost:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：2,170.16kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:09:00+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.237014s] [吞吐率：4.22req/s] [内存消耗：6,619.57kb] [文件加载：218]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:32:43+08:00 ] 0.0.0.0 GET localhost:8888/
+[运行时间：0.132007s] [吞吐率：7.58req/s] [内存消耗：4,919.02kb] [文件加载：125]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\index\index.php [ array (
+  0 => '_admin',
+  1 => 'menuList',
+  2 => 'site_logo',
+  3 => 'new_order_audio_link',
+  4 => 'role_name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:32:43+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/main.html
+[运行时间：0.109006s] [吞吐率：9.17req/s] [内存消耗：5,354.60kb] [文件加载：128]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'nested-navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/main_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\index\main.php [ array (
+  0 => '_admin',
+  1 => 'first_line',
+  2 => 'second_line',
+  3 => 'topData',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:32:44+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/userchart.html
+[运行时间：0.083005s] [吞吐率：12.05req/s] [内存消耗：4,880.07kb] [文件加载：124]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'userchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/userchart_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->userchart[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:32:44+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/orderchart.html?cycle=thirtyday
+[运行时间：0.133008s] [吞吐率：7.52req/s] [内存消耗：4,853.02kb] [文件加载：124]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'orderchart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/orderchart_html' => '',
+  'cycle' => 'thirtyday',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->orderchart[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:32:44+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.163010s] [吞吐率：6.13req/s] [内存消耗：5,289.98kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:32:50+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.105006s] [吞吐率：9.52req/s] [内存消耗：5,289.98kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=rs4qbl29vnl53gr8prsc7stqkv; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:43:07+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：2,666.362507s] [吞吐率：0.00req/s] [内存消耗：4,033.95kb] [文件加载：120]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap/login/index.html?ref=aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcA==',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15768',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:43:07+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.281016s] [吞吐率：3.56req/s] [内存消耗：6,827.20kb] [文件加载：219]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap/login/index.html?ref=aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcA==',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15768',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:43:08+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/?XDEBUG_SESSION_START=15104
+[运行时间：0.041003s] [吞吐率：24.39req/s] [内存消耗：3,235.52kb] [文件加载：112]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15768',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '15104',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:43:08+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/admin/login/index.html
+[运行时间：0.039003s] [吞吐率：25.64req/s] [内存消耗：2,617.06kb] [文件加载：106]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15104',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/index_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\login\index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:43:08+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/admin/login/captcha.html
+[运行时间：0.090005s] [吞吐率：11.11req/s] [内存消耗：2,614.64kb] [文件加载：105]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15104',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/captcha_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:44:41+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：82.344709s] [吞吐率：0.01req/s] [内存消耗：6,575.92kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15104',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:44:48+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：6.706384s] [吞吐率：0.15req/s] [内存消耗：6,575.95kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15104',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:44:48+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：2,169.51kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15104',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:47:56+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：62.494574s] [吞吐率：0.02req/s] [内存消耗：6,581.07kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15104',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T10:47:56+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.037003s] [吞吐率：27.02req/s] [内存消耗：2,169.51kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1; XDEBUG_SESSION=15104',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:38:55+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/category.html
+[运行时间：0.094005s] [吞吐率：10.64req/s] [内存消耗：4,616.73kb] [文件加载：124]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/category_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->category[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\category.html [ array (
+  0 => 'userInfo',
+  1 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:01+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.198011s] [吞吐率：5.05req/s] [内存消耗：6,568.94kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:02+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：2,169.49kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:02+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/admin/login/captcha.html
+[运行时间：0.042002s] [吞吐率：23.81req/s] [内存消耗：2,614.63kb] [文件加载：105]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/captcha_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:07+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.172010s] [吞吐率：5.81req/s] [内存消耗：6,568.23kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:07+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：2,169.56kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:08+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.193011s] [吞吐率：5.18req/s] [内存消耗：6,568.16kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:25+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/cut_list.html
+[运行时间：0.104006s] [吞吐率：9.61req/s] [内存消耗：4,461.39kb] [文件加载：122]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'cut_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/cut_list_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->cut_list[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\cut_list.html [ array (
+  0 => 'userInfo',
+  1 => 'bargain',
+  2 => 'bargainUser',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:25+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/font/iconfont.css
+[运行时间：0.049003s] [吞吐率：20.41req/s] [内存消耗：4,291.59kb] [文件加载：119]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'font',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap/store/cut_list.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/font/iconfont_css' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\WapBasic->_empty[ D:\AppServ\www\application\wap\controller\WapBasic.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/public\error.html [ array (
+  0 => 'userInfo',
+  1 => 'title',
+  2 => 'msg',
+  3 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:46+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.236014s] [吞吐率：4.24req/s] [内存消耗：6,568.16kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:52+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/my/sign_in.html
+[运行时间：0.219013s] [吞吐率：4.57req/s] [内存消耗：4,691.33kb] [文件加载：127]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'sign_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/sign_in_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->sign_in[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\sign_in.html [ array (
+  0 => 'userInfo',
+  1 => 'signed',
+  2 => 'signCount',
+  3 => 'signList',
+  4 => 'goodsList',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:54+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.248014s] [吞吐率：4.03req/s] [内存消耗：6,568.16kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:39:56+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/seckill_index.html
+[运行时间：0.253014s] [吞吐率：3.95req/s] [内存消耗：6,383.24kb] [文件加载：209]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'seckill_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/seckill_index_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->seckill_index[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\seckill_index.html [ array (
+  0 => 'userInfo',
+  1 => 'seckillProduct',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:40:00+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.237014s] [吞吐率：4.22req/s] [内存消耗：6,568.16kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:40:02+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/cut_list.html
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：4,461.39kb] [文件加载：122]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'cut_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/cut_list_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->cut_list[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\cut_list.html [ array (
+  0 => 'userInfo',
+  1 => 'bargain',
+  2 => 'bargainUser',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:40:02+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/font/iconfont.css
+[运行时间：0.050003s] [吞吐率：20.00req/s] [内存消耗：4,291.59kb] [文件加载：119]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'font',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap/store/cut_list.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/font/iconfont_css' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\WapBasic->_empty[ D:\AppServ\www\application\wap\controller\WapBasic.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/public\error.html [ array (
+  0 => 'userInfo',
+  1 => 'title',
+  2 => 'msg',
+  3 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:40:03+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.268015s] [吞吐率：3.73req/s] [内存消耗：6,568.94kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:40:04+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/issue_coupon.html
+[运行时间：0.265015s] [吞吐率：3.77req/s] [内存消耗：6,385.65kb] [文件加载：209]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'issue_coupon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/issue_coupon_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->issue_coupon[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\issue_coupon.html [ array (
+  0 => 'userInfo',
+  1 => 'lists',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:40:09+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.172010s] [吞吐率：5.81req/s] [内存消耗：6,568.16kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:41:17+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/cut_list.html
+[运行时间：0.126007s] [吞吐率：7.94req/s] [内存消耗：4,461.39kb] [文件加载：122]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'cut_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/cut_list_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->cut_list[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\cut_list.html [ array (
+  0 => 'userInfo',
+  1 => 'bargain',
+  2 => 'bargainUser',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:41:17+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/font/iconfont.css
+[运行时间：0.054003s] [吞吐率：18.52req/s] [内存消耗：4,291.59kb] [文件加载：119]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'font',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap/store/cut_list.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/font/iconfont_css' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\WapBasic->_empty[ D:\AppServ\www\application\wap\controller\WapBasic.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/public\error.html [ array (
+  0 => 'userInfo',
+  1 => 'title',
+  2 => 'msg',
+  3 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:41:24+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.210012s] [吞吐率：4.76req/s] [内存消耗：6,568.94kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:41:26+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/issue_coupon.html
+[运行时间：0.215012s] [吞吐率：4.65req/s] [内存消耗：6,198.74kb] [文件加载：207]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'issue_coupon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/issue_coupon_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->issue_coupon[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\issue_coupon.html [ array (
+  0 => 'userInfo',
+  1 => 'lists',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:41:29+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.228013s] [吞吐率：4.39req/s] [内存消耗：6,568.16kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:41:31+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/combination.html
+[运行时间：0.240014s] [吞吐率：4.17req/s] [内存消耗：6,437.39kb] [文件加载：209]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'combination',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/combination_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->combination[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\combination.html [ array (
+  0 => 'userInfo',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:41:38+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.221013s] [吞吐率：4.52req/s] [内存消耗：6,568.16kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:41:42+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/combination.html
+[运行时间：0.209012s] [吞吐率：4.78req/s] [内存消耗：6,231.84kb] [文件加载：207]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'combination',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/combination_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->combination[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\combination.html [ array (
+  0 => 'userInfo',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:43:20+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.257015s] [吞吐率：3.89req/s] [内存消耗：6,568.94kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:43:31+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/store/category.html
+[运行时间：0.098005s] [吞吐率：10.20req/s] [内存消耗：4,380.63kb] [文件加载：122]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'store',
+    2 => 'category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/store/category_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Store->category[ D:\AppServ\www\application\wap\controller\Store.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/store\category.html [ array (
+  0 => 'userInfo',
+  1 => 'category',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:43:34+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.242014s] [吞吐率：4.13req/s] [内存消耗：6,568.16kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:43:36+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/service/service_list.html
+[运行时间：0.194012s] [吞吐率：5.15req/s] [内存消耗：6,255.42kb] [文件加载：209]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'service',
+    2 => 'service_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/service/service_list_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Service->service_list[ D:\AppServ\www\application\wap\controller\Service.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/service\service_list.html [ array (
+  0 => 'userInfo',
+  1 => 'list',
+  2 => 'merchant',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-29T14:43:38+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap
+[运行时间：0.189011s] [吞吐率：5.29req/s] [内存消耗：6,568.16kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=dptc4amacr4rqj5anc28f6ncvp; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File

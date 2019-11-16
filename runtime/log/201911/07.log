@@ -1,0 +1,1049 @@
+---------------------------------------------------------------
+[ 2019-11-07T15:32:56+08:00 ] 0.0.0.0 GET localhost:8888/wap
+[运行时间：0.887050s] [吞吐率：1.13req/s] [内存消耗：6,620.34kb] [文件加载：218]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\Index->index[ D:\AppServ\www\application\wap\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'banner',
+  2 => 'menus',
+  3 => 'roll_news',
+  4 => 'category',
+  5 => 'pinkImage',
+  6 => 'notice',
+  7 => 'storeSeckill',
+  8 => 'storePink',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:32:56+08:00 ] 0.0.0.0 GET localhost:8888/public/uploads/config/image/5c3dd2ffb2616.jpeg
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：2,170.09kb] [文件加载：97]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/config/image/5c3dd2ffb2616_jpeg' => '',
+  'image' => '5c3dd2ffb2616.jpeg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:32:59+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/index.html
+[运行时间：0.227013s] [吞吐率：4.41req/s] [内存消耗：6,756.79kb] [文件加载：217]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/index_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->index[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\index.html [ array (
+  0 => 'userInfo',
+  1 => 'menus',
+  2 => 'orderStatusNum',
+  3 => 'notice',
+  4 => 'statu',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:33:04+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/address.html
+[运行时间：0.192011s] [吞吐率：5.21req/s] [内存消耗：6,227.01kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\address.html [ array (
+  0 => 'userInfo',
+  1 => 'address',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:33:07+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.197011s] [吞吐率：5.08req/s] [内存消耗：6,164.33kb] [文件加载：206]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:36:24+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.254015s] [吞吐率：3.94req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:37:00+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.243013s] [吞吐率：4.12req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:37:23+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.206011s] [吞吐率：4.85req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:38:27+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.179010s] [吞吐率：5.59req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:38:31+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.200011s] [吞吐率：5.00req/s] [内存消耗：6,164.41kb] [文件加载：206]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:42:57+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.225013s] [吞吐率：4.44req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:43:07+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.244014s] [吞吐率：4.10req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:45:04+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.232014s] [吞吐率：4.31req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:45:05+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.208012s] [吞吐率：4.81req/s] [内存消耗：6,164.41kb] [文件加载：206]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:45:06+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.167009s] [吞吐率：5.99req/s] [内存消耗：6,164.41kb] [文件加载：206]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:45:07+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.204011s] [吞吐率：4.90req/s] [内存消耗：6,164.41kb] [文件加载：206]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:45:07+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.176010s] [吞吐率：5.68req/s] [内存消耗：6,164.41kb] [文件加载：206]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:45:07+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.189010s] [吞吐率：5.29req/s] [内存消耗：6,164.41kb] [文件加载：206]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T15:45:08+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.166009s] [吞吐率：6.02req/s] [内存消耗：6,164.41kb] [文件加载：206]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T16:03:09+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.270015s] [吞吐率：3.70req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T16:03:44+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.174010s] [吞吐率：5.75req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T16:08:15+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.248014s] [吞吐率：4.03req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T16:08:40+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.209011s] [吞吐率：4.78req/s] [内存消耗：6,358.62kb] [文件加载：208]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-07T16:24:21+08:00 ] 0.0.0.0 GET localhost:8888/wap/my/edit_address.html
+[运行时间：0.187011s] [吞吐率：5.35req/s] [内存消耗：6,164.41kb] [文件加载：206]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'my',
+    2 => 'edit_address',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost:8888/wap/my/address.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/my/edit_address_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wap\controller\My->edit_address[ D:\AppServ\www\application\wap\controller\My.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/my\edit_address.html [ array (
+  0 => 'userInfo',
+  1 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File

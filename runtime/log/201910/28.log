@@ -1,0 +1,75 @@
+---------------------------------------------------------------
+[ 2019-10-28T08:18:40+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/
+[运行时间：0.309017s] [吞吐率：3.24req/s] [内存消耗：3,154.03kb] [文件加载：117]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=bmh8rkevt79bbqiiqifopbtsp2; is_login=0; is_bg=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/' => '',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'wap',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-28T08:18:41+08:00 ] 127.0.0.1 GET 127.0.0.1:8888/wap/login/index.html?ref=aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcC8=
+[运行时间：0.713040s] [吞吐率：1.40req/s] [内存消耗：6,093.91kb] [文件加载：205]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wap',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=bmh8rkevt79bbqiiqifopbtsp2; is_login=0; is_bg=1',
+)
+[ info ] [ PARAM ] array (
+  '/wap/login/index_html' => '',
+  'ref' => 'aHR0cDovLzEyNy4wLjAuMTo4ODg4L3dhcC8=',
+)
+[ info ] [ BEHAVIOR ] Run behavior\wap\WapBehavior @wap_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wap\controller\Login->index[ D:\AppServ\www\application\wap\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www/application/wap/view/first/login\index.html [ array (
+  0 => 'ref',
+) ]
+[ info ] [ LOG ] INIT File

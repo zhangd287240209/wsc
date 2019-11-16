@@ -1,0 +1,190 @@
+---------------------------------------------------------------
+[ 2019-11-10T23:59:34+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.146008s] [吞吐率：6.85req/s] [内存消耗：5,290.24kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'referer' => 'http://localhost:8888/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1; ASP.NET_SessionId=2zxczy5na0htt24e42em44if',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-10T23:59:40+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.138008s] [吞吐率：7.25req/s] [内存消耗：5,290.29kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'referer' => 'http://localhost:8888/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1; ASP.NET_SessionId=2zxczy5na0htt24e42em44if',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-10T23:59:46+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.126007s] [吞吐率：7.94req/s] [内存消耗：5,290.29kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'referer' => 'http://localhost:8888/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1; ASP.NET_SessionId=2zxczy5na0htt24e42em44if',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-10T23:59:52+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.137008s] [吞吐率：7.30req/s] [内存消耗：5,290.29kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'referer' => 'http://localhost:8888/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1; ASP.NET_SessionId=2zxczy5na0htt24e42em44if',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-10T23:59:58+08:00 ] 0.0.0.0 GET localhost:8888/admin/index/Jnotice
+[运行时间：0.127008s] [吞吐率：7.87req/s] [内存消耗：5,290.29kb] [文件加载：129]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'Jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'cors',
+  'referer' => 'http://localhost:8888/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=b5grsitsn6vcqsskkq8p9r0l36; is_bg=1; is_login=1; ASP.NET_SessionId=2zxczy5na0htt24e42em44if',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/Jnotice' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\AppServ\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File

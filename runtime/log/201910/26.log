@@ -1,0 +1,204 @@
+---------------------------------------------------------------
+[ 2019-10-26T10:42:15+08:00 ] 0.0.0.0 GET localhost:8888/
+[运行时间：0.826048s] [吞吐率：1.21req/s] [内存消耗：3,235.31kb] [文件加载：112]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=clle9mn5dv54k18dffe5m8qka8; is_login=0; is_bg=1; ASP.NET_SessionId=sf145dme5d5dnp45jefod545',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-26T10:42:15+08:00 ] 0.0.0.0 GET localhost:8888/admin/login/index.html
+[运行时间：0.096006s] [吞吐率：10.42req/s] [内存消耗：2,617.67kb] [文件加载：106]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=clle9mn5dv54k18dffe5m8qka8; is_login=0; is_bg=1; ASP.NET_SessionId=sf145dme5d5dnp45jefod545',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/index_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\login\index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-26T10:42:15+08:00 ] 0.0.0.0 GET localhost:8888/admin/login/captcha.html
+[运行时间：0.180010s] [吞吐率：5.56req/s] [内存消耗：2,614.53kb] [文件加载：105]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=clle9mn5dv54k18dffe5m8qka8; is_login=0; is_bg=1; ASP.NET_SessionId=sf145dme5d5dnp45jefod545',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/captcha_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-26T13:17:37+08:00 ] 0.0.0.0 GET localhost:8888/
+[运行时间：0.061003s] [吞吐率：16.39req/s] [内存消耗：3,235.32kb] [文件加载：112]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=clle9mn5dv54k18dffe5m8qka8; is_login=0; is_bg=1; ASP.NET_SessionId=sf145dme5d5dnp45jefod545',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-26T13:17:37+08:00 ] 0.0.0.0 GET localhost:8888/admin/login/index.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：2,617.67kb] [文件加载：106]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=clle9mn5dv54k18dffe5m8qka8; is_login=0; is_bg=1; ASP.NET_SessionId=sf145dme5d5dnp45jefod545',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/index_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\AppServ\www/application/admin\view\login\index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-26T13:17:38+08:00 ] 0.0.0.0 GET localhost:8888/admin/login/captcha.html
+[运行时间：0.038003s] [吞吐率：26.31req/s] [内存消耗：2,614.53kb] [文件加载：105]
+[ info ] [ LANG ] D:\AppServ\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8888',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'no-cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost:8888/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => '_ga=GA1.1.516496421.1528078385; Hm_lvt_b7505e2c3435202aefff08444fa0c05c=1561769857; PHPSESSID=clle9mn5dv54k18dffe5m8qka8; is_login=0; is_bg=1; ASP.NET_SessionId=sf145dme5d5dnp45jefod545',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/captcha_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\AppServ\www\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
